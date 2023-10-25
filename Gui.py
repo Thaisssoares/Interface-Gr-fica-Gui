@@ -5,7 +5,7 @@ import PySimpleGUI as psg
 layout = [
     [psg.Text(' '),psg.Text('Bem-vindo!'),psg.Text(' ')],
     [psg.Text('Minha primeira tela!!')],
-    [psg.Button('---Clique Aqui---')]],
+    [psg.Button('   Clique Aqui   ')]],
 #Definir o frame
 window= psg.Window('Minha primeira tela em Python',layout)
 
